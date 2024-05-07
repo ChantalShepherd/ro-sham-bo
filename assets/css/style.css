@@ -12,12 +12,14 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     font-family: "Oswald", sans-serif;
+    background: url("../images/background.jpg") no-repeat center center/cover;    
 }
 h1,h2 {
     font-family: "Bangers", system-ui;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1px;
+    color: #fafafa;
   }
 h3,h4 {
     font-family: "Oswald", sans-serif;
