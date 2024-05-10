@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     font-family: "Oswald", sans-serif;
-    background: url("../images/background.jpg") no-repeat center center/cover;    
+    background: url("../images/background.jpg") no-repeat center center/cover; 
 }
 h1,h2 {
     font-family: "Bangers", system-ui;
@@ -20,7 +20,7 @@ h1,h2 {
     font-style: normal;
     letter-spacing: 1px;
     color: #fafafa;
-  }
+}
 h3,h4 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -33,7 +33,8 @@ h3,h4 {
     width: 50%;
     text-align: center;
     padding-top: 100px;
-    background-color: aqua;
+    background-color: #fafafa;
+    border-radius: 14px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -51,8 +52,7 @@ h3,h4 {
     margin-bottom: 10px;
 }
 .header-image{
-    max-width: 300px;
-    
+    max-width: 100%;    
 }
 .button-container {
     list-style-type: none;
@@ -75,6 +75,23 @@ h3,h4 {
 }
 .play-button:hover {
     background-color: #fafafa;    
+}
+.result-image img {
+    width: 100px;
+}
+.container {
+    width: 50%;    
+    padding-top: 100px;    
+    border-radius: 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;   
+    align-items: center;  
+    justify-content: center; 
+    background-color: #e99456;
 }
 
 
